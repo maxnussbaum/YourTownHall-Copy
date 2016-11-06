@@ -1,0 +1,5 @@
+c:\users\rayra\onedrive\documents\visual studio 2015\Projects\YourTownHall2\YourTownHall2\bin\Debug\YourTownHall2.dacpac
+c:\users\rayra\onedrive\documents\visual studio 2015\Projects\YourTownHall2\YourTownHall2\bin\Debug\YourTownHall2.dll
+c:\users\rayra\onedrive\documents\visual studio 2015\Projects\YourTownHall2\YourTownHall2\bin\Debug\YourTownHall2.pdb
+c:\users\rayra\onedrive\documents\visual studio 2015\Projects\YourTownHall2\YourTownHall2\obj\Debug\YourTownHall2.dll
+c:\users\rayra\onedrive\documents\visual studio 2015\Projects\YourTownHall2\YourTownHall2\obj\Debug\YourTownHall2.pdb
