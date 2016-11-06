@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<title>YTH Home Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body bgcolor="#f2f2f2">
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-red w3-card-2 w3-left-align w3-large">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    </li>
+    <li><a href="index.html" class="w3-padding-large w3-white">Home</a></li>
+    <li><a href="yourhal.html" class="w3-padding-large w3-hover-blue">Your Hall</a></li>
+    <li><a href="services.html" class="w3-padding-large w3-hover-blue">Services</a></li>
+    <li><a href="help.html" class="w3-padding-large w3-hover-blue">Help</a></li>
+    <li><a href="login.html" class="w3-padding-large w3-hover-blue">Log In</a></li>
+</div>
+
+<!-- Header -->
+<center><img src="logolmao.png" style="width:350px;height:250px;">
+  <h1 class="w3-margin w3-jumbo">YourTownHall</h1>
+
+  	<div id="tfheader">
+  		<form id="tfnewsearch" method="get" action="http://www.google.com">
+  		        <h2><input type="text" class="tftextinput" name="q" size="30" placeholder= Zip&#32;Code maxlength="7"><input type="submit" value="Search" class="tfbutton"></h2>
+  		</form>
+  	<div class="tfclear"></div>
+
+
+  <input id="q" aria-hidden="true" autocomplete="off" name="q" tabindex="-1" type="url" jsaction="mousedown:ntp.fkbxclk" style="opacity: 0;">
+</header>
+</center>
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+
+      <p><h1><center>Get Involved</h1></p>
+    <center><h3>Many Americans wouldn't know how to contact their local government if necessary. YourTownHall is your online portal to accessing your local government and making the most out of your community.</h5></center>
+
+      <center><p class="w3-text-grey">YourTownHall serves to be much more than just a way to easily contact your local officials. Our features range from to starting a petition, to organzing community events, or just getting in touch with your fellow residents. The goal of YourTownHall is to bring communities together and be more interactive.</p>
+  </center>
+    </h3></div>
+
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+   <a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+   <a href="#" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+   <a href="#" class="w3-hover-text-grey"><i class="fa fa-flickr"></i></a>
+   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+ </div>
+
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
